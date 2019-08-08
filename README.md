@@ -161,7 +161,7 @@ void game()
 	char ret = '0';
 	InitBoard(board, ROW, COL);
 	PrintBoard(board, ROW, COL);
-	srand((unsigned int)time(NULL));
+ 	srand((unsigned int)time(NULL));
 	while (1)
 	{
 		PlayerMove(board, ROW, COL);
